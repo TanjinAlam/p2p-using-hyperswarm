@@ -1,0 +1,25 @@
+{
+  "name": "bee-t-reader",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "bee-t-reader",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "bare-process": "^2.2.0",
+    "corestore": "^6.18.2",
+    "debounceify": "^1.1.0",
+    "hyperdrive": "^11.8.1",
+    "hyperswarm": "^4.7.15"
+  }
+}

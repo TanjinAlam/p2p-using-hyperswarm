@@ -1,0 +1,24 @@
+{
+  "name": "core-reader-app",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "core-reader-app",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "bare-process": "^2.2.0",
+    "corestore": "^6.18.2",
+    "hyperbee": "^2.19.7",
+    "hyperswarm": "^4.7.15"
+  }
+}
